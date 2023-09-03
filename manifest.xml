@@ -8,14 +8,14 @@
 <!-- Main DT -->
       <project
         path="device/xiaomi/lancelot" 
-        name="deadmeatXX/TUBELIGHT-MAINTREE.git" 
+        name="Asce-XOX/android_device_xiaomi_lancelot.git" 
         remote="hub"
         revision="lineage-20" />
    
 <!-- Blaze Common DT -->
       <project
         path="device/xiaomi/mt6768-common"
-        name="deadmeatXX/Cub_common-trre.git"
+        name="Asce-XOX/android_device_xiaomi_lancelot.git"
         remote="hub"
         revision="lineage-20" />  
   
