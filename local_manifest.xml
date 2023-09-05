@@ -2,7 +2,7 @@
 
 <manifest>
   <remote name="hub" fetch="https://github.com" />
-  <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
+  <remote name="clang" fetch="https://gitlab.com" />
   
   
 <!-- Main DT -->
@@ -51,10 +51,6 @@
         remote="hub"
         revision="lineage-20" />
         
-        
-
-
-        
 
       <project
         path="device/mediatek/sepolicy_vndr"
@@ -66,8 +62,10 @@
 <!-- Clang -->
       <project 
         path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-        name="clang-r450784d.git"
-        remote="clang" />
+        name="ImSurajxD/clang-r450784d.git"
+        remote="clang"
+        revision="master" 
+        clone-depth="1" />
 
         
         
