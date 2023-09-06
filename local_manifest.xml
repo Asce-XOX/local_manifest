@@ -52,9 +52,10 @@
         revision="lineage-20" />
         
 
+<!-- Sepolicy -->
       <project
         path="device/mediatek/sepolicy_vndr"
-        name="LineageOS/android_device_mediatek_sepolicy_vndr.git"
+        name="mt6768-dev/android_device_mediatek_sepolicy_vndr.git"
         remote="hub"
         revision="lineage-20" />
         
