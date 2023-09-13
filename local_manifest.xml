@@ -21,7 +21,8 @@
 
 
 <remove-project name="frameworks_av"/>
- <project path="frameworks/av" name="Asce-XOX/frameworks_av.git" 
+ <project path="frameworks/av" 
+name="Asce-XOX/frameworks_av.git" 
 remote="github" 
 revision="thirteen" clone-depth="1"/>
 
