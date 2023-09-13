@@ -1,74 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?> 
+  
+ <manifest> 
+  
+ <remote name="hub" 
+         fetch="https://github.com" /> 
+ <remote name="dev" 
+         fetch="https://github.com/mt6768-dev" /> 
+ <remote name="clang"   
+         fetch="https://gitlab.com/ImSurajxD"/> 
+ <remote name="dead" 
+          fetch="https://github.com/acex88" /> 
+ <remote name="lineage" 
+          fetch="https://github.com/LineageOS" /> 
+ <remote name="lab" 
+           fetch="https://gitlab.com" />        
+ <remote name="me"
+         fetch="https://github.com/Asce-XOX" />
 
-<manifest>
-  <remote name="hub" fetch="https://github.com" />
-  <remote name="clang" fetch="https://gitlab.com/ImSurajxD"/>
+  
+   <!-- Device Trees --> 
+   <project path="device/xiaomi/lancelot" name="android_device_xiaomi_lancelot.git" remote="me" revision="lineage-20" clone-depth="1" /> 
+  
+   <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common.git" remote="me" revision="lineage-20" clone-depth="1" /> 
   
   
-<!-- Main DT -->
-      <project
-        path="device/xiaomi/lancelot" 
-        name="deadmeatXX/TUBELIGHT-MAINTREE.git" 
-        remote="hub"
-        revision="lineage-20" />
-   
-<!-- Blaze Common DT -->
-      <project
-        path="device/xiaomi/mt6768-common"
-        name="deadmeatXX/Cub_common-trre.git"
-        remote="hub"
-        revision="lineage-20" />  
+   <!-- Kernel Trees--> 
+   <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768.git" remote="dev" revision="lineage-20" clone-depth="1" /> 
+  
+   <!-- Vendor Trees --> 
+   <project path="vendor/xiaomi/lancelot" name="proprietary_vendor_xiaomi_lancelot.git" remote="dev" revision="lineage-20" clone-depth="1" /> 
+  
+   <!-- Vendor Common Trees-->  
+   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common.git" remote="dev" revision="lineage-20" clone-depth="1" /> 
+  
+   <!-- Hardware -->    
+   <project path="hardware/mediatek" name="android_hardware_mediatek-1.git" remote="dead" revision="main" clone-depth="1" /> 
+  
+   <!-- Clang --> 
+   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d.git" remote="clang" revision="master" clone-depth="1" /> 
+  
+   <!--MtkFMRadio --> 
+   <project path="packages/apps/MtkFMRadio" name="android_packages_apps_MtkFMRadio" remote="dev" revision="lineage-20"/> 
+  
+   <!-- Sepolicy -->  
+   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="dev" revision="lineage-20" clone-depth="1" /> 
   
   
-<!-- VT -->
-      <project 
-        path="vendor/xiaomi/lancelot"
-        name="mt6768-dev/proprietary_vendor_xiaomi_lancelot.git"
-        remote="hub"
-        revision="lineage-20" />
   
-  
-<!--Common VT--> 
-      <project 
-        path="vendor/xiaomi/mt6768-common"
-        name="mt6768-dev/proprietary_vendor_xiaomi_mt6768-common.git"
-        remote="hub"
-        revision="lineage-20"/>
-        
-        
-<!-- Kernel Trees-->
-      <project
-        path="kernel/xiaomi/mt6768" 
-        name="LineageOS/android_kernel_xiaomi_mt6768.git"
-        remote="hub" 
-        revision="lineage-20" />
-         
-         
-<!-- Hardware -->
-      <project
-        path="hardware/mediatek"
-        name="LineageOS/android_hardware_mediatek.git"
-        remote="hub"
-        revision="lineage-20" />
-        
-        
-
-<remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr" />
-        
-
-      <project
-        path="device/mediatek/sepolicy_vndr"
-        name="LineageOS/android_device_mediatek_sepolicy_vndr.git"
-        remote="hub"
-        revision="lineage-20" />
-        
-
-<!-- Clang -->
-      <project 
-        path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-        name="clang-r450784d.git"
-        remote="clang" />
-
-        
-        
-</manifest>
+   </manifest>
