@@ -30,7 +30,7 @@
 <remove-project name="frameworks_native"/>
  <project path="frameworks/native" name="Asce-XOX/Pe_frameworks_native.git" remote="github" revision="thirteen" clone-depth="1"/> 
 
-This correct for native right
+
 
   
   
