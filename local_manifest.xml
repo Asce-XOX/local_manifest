@@ -10,7 +10,7 @@
         path="device/xiaomi/lancelot" 
         name="Asce-XOX/android_device_xiaomi_lancelot.git"
         remote="hub"
-        revision="derp" />
+        revision="aic" />
    
 <!-- Common DT -->
       <project
@@ -22,14 +22,14 @@
 
       <remove-project name="frameworks_av"/>
       <project path="frameworks/av" 
-        name="Asce-XOX/Derp_frameworks_av.git" 
+        name="Asce-XOX/Aicp_frameworks_av.git" 
         remote="github" 
-        revision="13"
+        revision="t13.0"
         clone-depth="1" />
 
 
-
-
+<remove-project name="frameworks_native"/> 
+  <project path="frameworks/native" name="Asce-XOX/Aicp_frameworks_native.git" remote="github" revision="t13.0" clone-depth="1"/> 
   
   
 <!-- VT -->
