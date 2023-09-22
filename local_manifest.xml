@@ -20,7 +20,7 @@
         revision="lineage-20" />  
 
 
-      <remove-project name="frameworks_av"/>
+      <remove-project name="AICP/frameworks_av"/>
       <project path="frameworks/av" 
         name="Asce-XOX/Aicp_frameworks_av.git" 
         remote="github" 
