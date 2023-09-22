@@ -28,7 +28,7 @@
         clone-depth="1" />
 
 
-<remove-project name="frameworks_native"/> 
+<remove-project name="AICP/frameworks_native"/> 
   <project path="frameworks/native" name="Asce-XOX/Aicp_frameworks_native.git" remote="github" revision="t13.0" clone-depth="1"/> 
   
   
