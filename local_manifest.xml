@@ -10,7 +10,7 @@
         path="device/xiaomi/lancelot" 
         name="Asce-XOX/android_device_xiaomi_lancelot.git"
         remote="hub"
-        revision="lineage-20" />
+        revision="rise" />
    
 <!-- Common DT -->
       <project
@@ -20,15 +20,15 @@
         revision="lineage-20" />  
 
 
-      <remove-project name="frameworks_av"/>
+      <remove-project name="RisingTechOSS/android_frameworks_av"/>
       <project path="frameworks/av" 
-        name="Asce-XOX/Pe_frameworks_av.git" 
+        name="Asce-XOX/Rise_android_frameworks_av.git" 
         remote="github" 
         revision="thirteen" 
         clone-depth="1" />
 
-<remove-project name="frameworks_native"/>
- <project path="frameworks/native" name="Asce-XOX/Pe_frameworks_native.git" remote="github" revision="thirteen" clone-depth="1"/> 
+<remove-project name="RisingTechOSS/android_frameworks_native"/>
+ <project path="frameworks/native" name="Asce-XOX/Rise_android_frameworks_native.git" remote="github" revision="thirteen" clone-depth="1"/> 
 
 
 
