@@ -27,7 +27,7 @@
         revision="13" 
         clone-depth="1" />
 
-<remove-project name="platform/frameworks/native"/>
+<remove-project name="frameworks_native"/>
  <project path="frameworks/native" name="Asce-XOX/Pb_frameworks_native.git" remote="github" revision="13" clone-depth="1"/> 
 
 
