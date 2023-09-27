@@ -20,7 +20,7 @@
         revision="lineage-20" />  
 
 
-      <remove-project name="platform/frameworks/base"/>
+      <remove-project name="frameworks_av"/>
       <project path="frameworks/av" 
         name="Asce-XOX/Pb_frameworks_av.git" 
         remote="github" 
