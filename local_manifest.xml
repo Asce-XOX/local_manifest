@@ -20,15 +20,15 @@
         revision="lineage-20" />  
 
 
-      <remove-project name="frameworks_av"/>
+      <remove-project name="android_frameworks_av"/>
       <project path="frameworks/av" 
-        name="Asce-XOX/Pe_frameworks_av.git" 
+        name="Asce-XOX/awaken_frameworks_av.git" 
         remote="github" 
         revision="thirteen" 
         clone-depth="1" />
 
-<remove-project name="frameworks_native"/>
- <project path="frameworks/native" name="Asce-XOX/Pe_frameworks_native.git" remote="github" revision="thirteen" clone-depth="1"/> 
+<remove-project name="android_frameworks_native"/>
+ <project path="frameworks/native" name="Asce-XOX/Awaken_frameworks_native.git" remote="github" revision="thirteen" clone-depth="1"/> 
 
 
 
