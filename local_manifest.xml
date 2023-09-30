@@ -10,7 +10,7 @@
         path="device/xiaomi/lancelot" 
         name="Asce-XOX/android_device_xiaomi_lancelot.git"
         remote="hub"
-        revision="lineage-20" />
+        revision="awaken" />
    
 <!-- Common DT -->
       <project
@@ -24,11 +24,11 @@
       <project path="frameworks/av" 
         name="Asce-XOX/awaken_frameworks_av.git" 
         remote="github" 
-        revision="thirteen" 
+        revision="triton" 
         clone-depth="1" />
 
 <remove-project name="android_frameworks_native"/>
- <project path="frameworks/native" name="Asce-XOX/Awaken_frameworks_native.git" remote="github" revision="thirteen" clone-depth="1"/> 
+ <project path="frameworks/native" name="Asce-XOX/Awaken_frameworks_native.git" remote="github" revision="triton" clone-depth="1"/> 
 
 
 
