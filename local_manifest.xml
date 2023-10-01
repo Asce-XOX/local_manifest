@@ -10,7 +10,7 @@
         path="device/xiaomi/lancelot" 
         name="Asce-XOX/android_device_xiaomi_lancelot.git"
         remote="hub"
-        revision="awaken" />
+        revision="Awaken-vanilla" />
    
 <!-- Common DT -->
       <project
