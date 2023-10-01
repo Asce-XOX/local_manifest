@@ -31,12 +31,7 @@
  <project path="frameworks/native" name="Asce-XOX/Awaken_frameworks_native.git" remote="github" revision="triton" clone-depth="1"/> 
 
 
-  <remove-project name="android_vendor_awaken"/>
-      <project path="vendor/awaken" 
-        name="Asce-XOX/awaken_vendor_awaken.git" 
-        remote="github" 
-        revision="triton" 
-        clone-depth="1" />
+  
 
   
   
