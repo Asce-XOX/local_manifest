@@ -67,6 +67,7 @@
         
 
 <!-- Sepolicy -->
+  <remove-project name="ArrowOS/android_device_mediatek_sepolicy_vndr"/>
       <project
         path="device/mediatek/sepolicy_vndr"
         name="LineageOS/android_device_mediatek_sepolicy_vndr.git"
